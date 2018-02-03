@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<widget id="com.pixelgang.defend" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.pixelgang.defend" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android = "http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 	<name>Defend the Trap</name>
 	<description>the hottest game</description>
 	<author href="http://pixelgangstudios.com" email="support@pixelgangstudios.com">Gerrell</author>
@@ -22,8 +22,14 @@
 	<access origin="*" />
 
 	<plugin name="cordova-custom-config" />
+	<plugin name="cordova-plugin-ad-admob" />
+	<plugin name="cordova-plugin-crosswalk-webview" />
+	<plugin name="cordova-plugin-file" />
+	<plugin name="cordova-plugin-inappbrowser" />
 	<plugin name="cordova-plugin-statusbar" />
 	<plugin name="cordova-plugin-whitelist" />
+	<plugin name="cordova-plugin-wkwebview-engine" />
+	<plugin name="cordova-build-architecture" spec="https://github.com/MBuchalik/cordova-build-architecture.git#v1.0.1" source="git" />
 
 
 	<engine name="ios" />
